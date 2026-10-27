@@ -74,6 +74,9 @@ export default function Header() {
           <Link to="/donate" className="btn btn-brand">
             {t('nav.donate')}
           </Link>
+          <button type="button" className="btn btn-ghost mobile-lang" onClick={toggle}>
+            {t('lang.switchLabel')}
+          </button>
         </nav>
       )}
     </header>

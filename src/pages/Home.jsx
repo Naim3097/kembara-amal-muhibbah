@@ -151,7 +151,7 @@ export default function Home() {
             <span className="eyebrow">{t('home.sedekahEyebrow')}</span>
             <h2 className="mt-2">{t('home.sedekahTitle')}</h2>
             <p className="lede mt-3">{t('home.sedekahLede')}</p>
-            <div className="actions mt-4">
+            <div className="actions actions-inline mt-4">
               {[5, 10, 50].map((amt) => (
                 <button key={amt} type="button" className="btn btn-outline-paper" onClick={() => openDonation({ campaign: 'sedekah-jumaat' })}>
                   RM{amt}
